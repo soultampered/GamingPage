@@ -1,43 +1,65 @@
 body {
 	background: #b5b5bd;
-	
+
 }
 
-.header{
+.headerWrapper{
+	position: absolute;
+	top: 0;
+	width: 100
 	background: #a6853f;
+}
+.navMenu {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+.container{
+	position: fixed;
+	background: #70c7ac;
+}
+.trendStory{
+	float: left;
+	padding: 10px;
+}
+.footerWrapper{
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	height: 2.5rem;
+	background: #947dde;
+}
+.seoText{
+	display: flex;
+	flex-direction: column;
+}
 
 
+#headerNav_1,
+#headerNav_2,
+#headerNav_3,
+#headerNav_4,
+#headerNav_5,
+#headerNav_6,
+#headerNav_7 {
+	float: left;
+	padding: 30px;
 }
-.wrapper{
-	background: #2f2923;
-}
+
 
 h1 {
 	background: #a6853f;
 
 }
-
 h2 {
 	background: #a6853f;
 
 }
-
 h3 {
 	background: #006267;
 
 }
-
 h4 {
-	background: #a6853f;
-
-}
-
-h5 {
-	background: #a6853f;
-
-}
-
-h6 {
 	background: #a6853f;
 
 }

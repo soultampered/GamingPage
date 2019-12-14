@@ -7,81 +7,80 @@
 	<link rel="stylesheet" type="text/css" href="CSS/globalStyles.css">
 </head>
 <body role="document">
-	<header class="header" role="banner">
+	<header class="headerWrapper" role="banner">
 		<h1>GWF</h1>
-			<nav role="navigation">
+			<nav class="navMenu" role="navigation">
 				<ul>	
-					<li><a href="pageSections/news.html" title="Latest News In Gaming">Gaming News</a></li>
-					<li><a href="pageSections/gameReviews.html" title="Game Reviews"> Game Reviews</a></li>
-					<li><a href="pageSections/tutorials.html" title="Tutorials">Tutorials</a></li>
-					<!--<li><a href="pageSections/gameplay.html" title="Gameplay">Gameplay</a></li>-->
-					<li><a href="pageSections/lore.html" title="Lore">Lore</a></li>
-					<li><a href="pageSections/gamingWithfriends.html" title="Gaming With Friends">Gaming With Friends</a></li>
-					<li><a href="pageSections/Community.html" title="Community">Community</a></li>
+					<li id="headerNav_1"><a href="pageSections/news.html" title="Latest News In Gaming">Gaming News</a></li>
+					<li id="headerNav_2"><a href="pageSections/gameReviews.html" title="Game Reviews"> Game Reviews</a></li>
+					<li id="headerNav_3"><a href="pageSections/tutorials.html" title="Tutorials">Tutorials</a></li>
+					<!--<li id="headerNav_4"><a href="pageSections/gameplay.html" title="Gameplay">Gameplay</a></li>-->
+					<li id="headerNav_5"><a href="pageSections/lore.html" title="Lore">Lore</a></li>
+					<li id="headerNav_6"><a href="pageSections/gamingWithfriends.html" title="Gaming With Friends">Gaming With Friends</a></li>
+					<li id="headerNav_7"><a href="pageSections/Community.html" title="Community">Community</a></li>
 				</ul>
 
 			</nav>
 	</header>
-<!-- Each sub-heading will link to the main headings root page but with a specific filter applied.-->
-
 
 <main role="main">
-	<!--Gaming news container.  Will link to a news section of the site.  Low community involvement, but potential high visibility.-->
-	<div class="wrapper">
-		<section>
-			<h2><a href="pageSections/news.html" title="News In Gaming"><span>News</a></span></h2><!-- these different news types will eventually link to the same page but with filtering applied on that page.  For now, they will all link to the same page-->
-				<h3><a href="pageSections/news.html" title="News In Gaming"><span>Trending News</a></span></h3>
-					<div>
-						<article role="article">
+	<div>
+		<section><!-- these news types will link to news page with filtering-->
+			<h2><a href="pageSections/news.html" title="News In Gaming"><span>News</a></span></h2>
+				<div class="container">
+					<h3 class="trendNews"><a href="pageSections/news.html" title="News In Gaming"><span>Trending News</a></span></h3>
+					<div>	
+						<article class="trendStory" role="article">
 							<p><a href="pageSections/news.html" title="News In Gaming"><img src="images/placeholderStuff.jpg" width="100" height="100" alt="Placeholder Image"><span>Trending News Story &#35;1</a></span></p>
 						</article>
 					
-						<article role="article">
+						<article class="trendStory" role="article">
 							<p><a href="pageSections/news.html" title="News In Gaming"><img src="images/placeholderStuff.jpg" width="100" height="100" alt="Placeholder Image"><span>Trending News Story &#35;2</a></span></p>
 						</article>
 
-						<article role="article">
+						<article class="trendStory" role="article">
 							<p><a href="pageSections/news.html" title="News In Gaming"><img src="images/placeholderStuff.jpg" width="100" height="100" alt="Placeholder Image"><span>Trending News Story &#35;3</a></span></p>
 						</article>
 					</div>
-					
+				</div>
+				<!--	
 				<h3><a href="pageSections/news.html" title="News In Gaming"><span>Latest News</a></span></h3>
 					<div>
-						<article role="article">
+						<article class="article" role="article">
 							<p><a href="pageSections/news.html" title="News In Gaming"><img src="images/placeholderStuff.jpg" width="100" height="100" alt="Placeholder Image"><span>Latest News Story &#35;1</a></span></p>
 						</article>
 					
-						<article role="article">
+						<article class="article" role="article">
 							<p><a href="pageSections/news.html" title="News In Gaming"><img src="images/placeholderStuff.jpg" width="100" height="100" alt="Placeholder Image"><span>Latest News Story &#35;2</a></span></p>
 						</article>
 
-						<article role="article">
+						<article class="article" role="article">
 							<p><a href="pageSections/news.html" title="News In Gaming"><img src="images/placeholderStuff.jpg" width="100" height="100" alt="Placeholder Image"><span>Latest News Story &#35;3</a></span></p>
 						</article>
 					</div>
 					
 				<h3><a href="pageSections/upcomingEvents.html" title="upcomingEvents"><span>Upcoming Events</a></span></h3>
 					<div>
-						<article role="article">
+						<article class="article" role="article">
 							<p><a href="pageSections/upcomingEvent.html" title="upcomingEvents"><img src="images/placeholderStuff.jpg" width="100" height="100" alt="Placeholder Image"><span>Upcoming Event &#35;1</a></span></p>
 						</article>
 					
-						<article role="article">
+						<article class="article" role="article">
 							<p><a href="pageSections/upcomingEvents.html" title="upcomingEvents"><img src="images/placeholderStuff.jpg" width="100" height="100" alt="Placeholder Image"><span>Upcoming Event &#35;2</a></span></p>
 						</article>
 
-						<article role="article">
+						<article class="article" role="article">
 							<p><a href="pageSections/upcomingEvents.html" title="upcomingEvents"><img src="images/placeholderStuff.jpg" width="100" height="100" alt="Placeholder Image"><span>Upcoming Event &#35;3</a></span></p>
 						</article>
-					</div>
+					</div>-->
 					
 		</section>
 	</div class="wrapper">		
-	<!-- Reviews container.  Will link to a reviews section of the website.  High community involvment.-->
-	<!-- these different news types will eventually link to the same page but with filtering applied on that page.  For now, they will all link to the same page-->
+	<!-- Reviews container.  Will link to a reviews section of the website.  High community involvment.
+	these different news types will eventually link to the same page but with filtering applied on that page.  For now, they will all link to the same page-->
 	<div>
 		<section>
-			<h2><a href="pageSections/gameReviews.html" title="Game Reviews"><span>Game Reviews</a></span></h2>
+			<!--<h2><a href="pageSections/gameReviews.html" title="Game Reviews"><span>Game Reviews</a></span></h2>
 				<h3><a href="pageSections/gameReviews.html" title="Game Reviews"><span>Community Reviews</a></span></h3>
 					<div>
 						<article role="article">
@@ -118,9 +117,9 @@
 							<p><a href="pageSections/gameReviews.html" title="Game Reviews"><img src="images/placeholderStuff.jpg" width="100" height="100" alt="Placeholder Image"><span>All Reviews</a></span></p>
 					</div>
 		</section>
-	</div>
+	</div>-->
 	<!-- Tutorials container.  Will link to a tutorials page (potentially youtube channel).  High community involvmenet.-->
-	<div class="wrapper">
+	<!--<div class="wrapper">
 		<section>
 			<h2><a href="pageSections/tutorials.html" title="Tutorials"><span>Tutorials</a></span></h2>
 				<h3><a href="pageSections/tutorials.html" title="Tutorials"><span>User Submitted Reviews</a></span></h3>
@@ -153,16 +152,19 @@
 						</article>
 					</div>
 		</section>
-	</div>
+	</div>-->
 
-	<div class="wrapper"><!-- Lore section where we nerd out and read about the worlds we love -->
+<!-- Lore section where we nerd out and read about the worlds we love -->
+	<!--<div class="wrapper">
+
 		<section>
 			<h2><a href="pageSections/lore.html" title="Lore"><span>Lore</a><span></h2>
 				<a href="pageSections/lore.html" title="Lore"></a> <img src="images/placeholderStuff.jpg" width="100" height="100" alt="Placeholder Image">
 		</section>
-	</div>
+	</div>-->
 
-	<div class="wrapper"><!--Gaming With Friends Section, where all our gaming stream sessions are located-->
+<!--Gaming With Friends Section, where all our gaming stream sessions are located-->
+	<!--<div class="wrapper">
 		<section>
 			<h2><a href="pageSections/gamingWithfriends.html" title="Gaming With Friends"><span>Gaming with Friends</span></a></h2>
 				<h3><a href="pageSections/gamingWithfriends.html" title="Gaming With Friends"><span>The Stream</a></span></h3>
@@ -197,12 +199,12 @@
 						<li><a href="pageSections/Chat.html" title="Forums"><img src="images/placeholderStuff.jpg" width="100" height="100" alt="Placeholder Image"><span>Forums</span></a></li>
 					</ul>
 		</section>
-	</div>
+	</div>-->
 </main>
 
 
-	<footer role="contentinfo">
-		<p>SEO text goes here</p>
+	<footer class="footerWrapper" role="contentinfo">
+		<p class="seoText">SEO text goes here</p>
 			<ul>
 				<li><a href="ContactUs.html">Contact Us</a></li>
 				<li><a href="LeaveAMessage.html">Leave a Message</a></il>
