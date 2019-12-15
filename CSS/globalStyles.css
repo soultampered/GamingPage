@@ -1,12 +1,10 @@
 body {
 	background: #b5b5bd;
-
 }
 
 .headerWrapper{
-	position: absolute;
+	position: static;
 	top: 0;
-	width: 100
 	background: #a6853f;
 }
 .navMenu {
@@ -15,12 +13,14 @@ body {
 	justify-content: center;
 }
 .container{
-	position: fixed;
-	background: #70c7ac;
+	background: #717ca8;
+	height: 150px;
+	width: 100%;
 }
 .trendStory{
+	position: static;
 	float: left;
-	padding: 10px;
+	margin: 25px;
 }
 .footerWrapper{
 	position: absolute;
@@ -33,7 +33,6 @@ body {
 	display: flex;
 	flex-direction: column;
 }
-
 
 #headerNav_1,
 #headerNav_2,
@@ -49,17 +48,13 @@ body {
 
 h1 {
 	background: #a6853f;
-
 }
 h2 {
-	background: #a6853f;
-
+	background: #990033;
 }
 h3 {
 	background: #006267;
-
 }
 h4 {
 	background: #a6853f;
-
 }
