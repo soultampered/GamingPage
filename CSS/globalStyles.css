@@ -1,10 +1,12 @@
-body {
-	background: #b5b5bd;
-}
+/* Create a separate style sheet for header, body, and footer elements.*/
 
+/*Header Styles*/
+h1 {
+	background: #a6853f;
+	margin: 0;
+}
 .headerWrapper{
-	position: static;
-	top: 0;
+	display: block;
 	background: #a6853f;
 }
 .navMenu {
@@ -12,28 +14,6 @@ body {
 	flex-direction: row;
 	justify-content: center;
 }
-.container{
-	background: #717ca8;
-	height: 150px;
-	width: 100%;
-}
-.trendStory{
-	position: static;
-	float: left;
-	margin: 25px;
-}
-.footerWrapper{
-	position: absolute;
-	bottom: 0;
-	width: 100%;
-	height: 2.5rem;
-	background: #947dde;
-}
-.seoText{
-	display: flex;
-	flex-direction: column;
-}
-
 #headerNav_1,
 #headerNav_2,
 #headerNav_3,
@@ -45,16 +25,44 @@ body {
 	padding: 30px;
 }
 
-
-h1 {
-	background: #a6853f;
+/*body Styles*/
+body {
+	background: #b5b5bd;
+}
+.container{
+	display: block;
+	background: #717ca8;
+	margin-top: 20px;
+	overflow: hidden;
+}
+.Story {
+	float: left;
+	padding: 30px;
 }
 h2 {
 	background: #990033;
+	margin: 0;
 }
 h3 {
-	background: #006267;
+	background: #93d58e;
+	margin: 0;
 }
 h4 {
 	background: #a6853f;
+	margin: 0;
+}
+
+
+/*Footer Styles*/
+.footerWrapper{
+	display: block;
+	background: #947dde;
+	margin-top: 20px;
+	overflow: hidden; 
+}
+.seoText{
+	text-align: center;
+	line-height: 18px;
+	font-size: 12px;
+	width: 950px;
 }
