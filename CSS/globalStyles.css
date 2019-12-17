@@ -2,51 +2,50 @@
 
 /*Header Styles*/
 h1 {
-	background: #a6853f;
 	margin: 0;
 }
 .headerWrapper{
 	display: block;
-	background: #a6853f;
+	background: #B5B5BD;
 }
 .navMenu {
 	display: flex;
 	flex-direction: row;
 	justify-content: center;
 }
-#headerNav_1,
-#headerNav_2,
-#headerNav_3,
-#headerNav_4,
-#headerNav_5,
-#headerNav_6,
-#headerNav_7 {
+.headerNav {
 	float: left;
 	padding: 30px;
 }
 
 /*body Styles*/
+/* Need some sudo selectors for link styles*/
 body {
-	background: #b5b5bd;
+	background: #333333;
 }
 .container{
 	display: block;
-	background: #717ca8;
-	margin-top: 20px;
+	/*background: #B5B5BD;*/
+	margin-top: 15px;
 	overflow: hidden;
 }
 .Story {
 	float: left;
 	padding: 30px;
+
+.section{
+
+}
+
 }
 h2 {
-	background: #990033;
-	margin: 0;
+	font-size: 20px;
+	margin-top: 5px;
 }
 h3 {
-	background: #93d58e;
-	margin: 0;
+	font-size: 18px;
 }
+
 h4 {
 	background: #a6853f;
 	margin: 0;
@@ -56,7 +55,7 @@ h4 {
 /*Footer Styles*/
 .footerWrapper{
 	display: block;
-	background: #947dde;
+	background: #B5B5BD;
 	margin-top: 20px;
 	overflow: hidden; 
 }
