@@ -1,0 +1,23 @@
+/*
+7D7D7D = button hover stage
+505050 = header
+333333 = Jet
+B5B5BD = silver
+FFFAF0 = cream white
+DDBC75 = gold
+C61D18 = crimson red
+*/
+
+/*Footer Styles*/
+.footerWrapper{
+	display: block;
+	background: #B5B5BD;
+	margin-top: 20px;
+	overflow: hidden; 
+}
+.seoText{
+	text-align: center;
+	line-height: 18px;
+	font-size: 12px;
+	width: 950px;
+}

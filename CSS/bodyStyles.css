@@ -10,41 +10,6 @@ DDBC75 = gold
 C61D18 = crimson red
 */
 
-
-/*Header Styles*/
-h1 {
-	margin: 0;
-}
-
-.btn{
-	color: #DDBC75;
-	text-decoration: none;
-}
-.headerNav:hover { 
-	background: #7D7D7D;
-}
-.btn:hover{
-	color: #3D3420;
-}
-
-.headerWrapper{
-	display: block;
-	background: #505050;
-}
-.navMenu {
-	display: flex;
-	flex-direction: row;
-	justify-content: center;
-}
-.headerNav {
-	background: #333333;
-	float: left;
-	padding: 5px;
-	margin: 15px;
-	list-style-type: none;
-	border-radius: 20px;
-}
-
 /*body Styles*/
 /* Need some sudo selectors for link styles*/
 body {
@@ -59,12 +24,8 @@ body {
 .Story {
 	float: left;
 	padding: 30px;
-
-.section{
-
 }
 
-}
 h2 {
 	font-size: 20px;
 	margin-top: 5px;

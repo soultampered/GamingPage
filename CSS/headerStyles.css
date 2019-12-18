@@ -1,0 +1,46 @@
+/*
+7D7D7D = button hover stage
+505050 = header
+333333 = Jet
+B5B5BD = silver
+FFFAF0 = cream white
+DDBC75 = gold
+C61D18 = crimson red
+*/
+
+
+/*Header Styles*/
+#header{
+	display: block;
+	margin: 0;
+	padding: 0;
+	background: #505050;
+}
+
+h1 {
+	margin: 0;
+	display: block;
+	overflow: hidden;
+}
+
+ul {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+.headerNav {
+	color: #DDBC75;
+	text-decoration: none;
+
+	list-style-type: none;
+	margin: 15px;
+	padding: 5px;
+	background: #333333;
+	float: left;
+	border-radius: 20px;
+}
+.headerNav:hover { 
+	background: #7D7D7D;
+	color: #3D3420;
+}
