@@ -10,24 +10,8 @@ C61D18 = crimson red
 
 
 /*Header Styles*/
-#header{
+.headerWrapper{
 	display: block;
-	margin: 0;
-	padding: 0;
 	background: #505050;
-}
-
-.headerNav {
-	color: #DDBC75;
-	text-decoration: none;
-	list-style-type: none;
-	margin: 15px;
-	padding: 5px;
-	background: #333333;
-	float: left;
-	border-radius: 20px;
-}
-.headerNav:hover { 
-	background: #7D7D7D;
-	color: #3D3420;
+	overflow: hidden; 
 }

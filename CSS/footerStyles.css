@@ -11,7 +11,7 @@ C61D18 = crimson red
 /*Footer Styles*/
 .footerWrapper{
 	display: block;
-	background: #B5B5BD;
+	background: #505050;
 	margin-top: 20px;
 	overflow: hidden; 
 }
@@ -21,3 +21,10 @@ C61D18 = crimson red
 	font-size: 12px;
 	width: 950px;
 }
+
+
+/*#header{
+	display: block;
+	margin: 0;
+	padding: 0;
+	background: #505050;*/
