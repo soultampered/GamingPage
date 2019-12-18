@@ -17,22 +17,9 @@ C61D18 = crimson red
 	background: #505050;
 }
 
-h1 {
-	margin: 0;
-	display: block;
-	overflow: hidden;
-}
-
-ul {
-	display: flex;
-	flex-direction: row;
-	justify-content: center;
-}
-
 .headerNav {
 	color: #DDBC75;
 	text-decoration: none;
-
 	list-style-type: none;
 	margin: 15px;
 	padding: 5px;
