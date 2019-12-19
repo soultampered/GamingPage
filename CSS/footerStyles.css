@@ -16,10 +16,12 @@ C61D18 = crimson red
 	overflow: hidden; 
 }
 .seoText{
+	display: block;
 	text-align: center;
 	line-height: 18px;
 	font-size: 12px;
 	width: 950px;
+	margin: 0 auto;
 }
 .copyRight{
 	font-size: 10px;
