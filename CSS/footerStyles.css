@@ -21,10 +21,13 @@ C61D18 = crimson red
 	font-size: 12px;
 	width: 950px;
 }
-
-
-/*#header{
+.copyRight{
+	font-size: 10px;
+}
+.footerAd{
 	display: block;
 	margin: 0;
 	padding: 0;
-	background: #505050;*/
+	text-align: center;
+	background: #C61D18;
+}
