@@ -26,8 +26,10 @@ C61D18 = crimson red
 .copyRight{
 	font-size: 10px;
 }
-.footerAd{
-	display: block;
+.footerAd{ /* fix positioning, this class is hacky as fuck */
+	position: relative;
+	left: 200px;
+	width: 800px;
 	margin: 0;
 	padding: 0;
 	text-align: center;

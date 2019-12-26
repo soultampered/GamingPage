@@ -15,7 +15,22 @@ C61D18 = crimson red
 	overflow: hidden;
 	border-radius: 20px;
 }
-.Story {
+.story {
 	float: left;
 	padding: 3px;
+}
+
+
+.newsArticle {
+	margin: auto;
+	width: 620px;
+	padding-bottom: 20px;
+}
+
+.articleIntro {
+	text-align: left;
+	overflow-wrap: break-word;
+	font-size: 12px;
+	color: #FFFAF0;
+
 }

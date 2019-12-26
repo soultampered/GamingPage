@@ -13,7 +13,9 @@ body {
 	margin: 0;
 }
 h1 {
-	display: block;
+	position: relative;
+	top: 3px;
+	left: 10px;
 	overflow: hidden;
 	color: #FFFAF0;
 }
