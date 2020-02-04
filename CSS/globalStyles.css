@@ -8,6 +8,10 @@ DDBC75 = gold
 C61D18 = crimson red
 */
 
+
+/* NEED TO REFACTOR THIS CODE:
+GLOBAL STYLES DEFINES THE STYLES FOR THE SITE, HEADER, AND FOOTER. PAGE SPECIFIC STYLES SHOULD GO IN A SEPARATE STYLE SHEET*/
+
 body {
 	background: #252525;
 	margin: 0;
@@ -21,7 +25,7 @@ h1 {
 }
 h2 {
 	font-size: 20px;
-	margin-bottom: 5px;
+	margin-bottom: 25px;
 	text-align: left;
 }
 h3 {

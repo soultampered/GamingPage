@@ -9,28 +9,42 @@ C61D18 = crimson red
 */
 
 /*body Styles*/
-.container{
+.containerListing{
 	display: block;
 	margin-bottom: 50px;
 	overflow: hidden;
 	border-radius: 20px;
 }
+
 .story {
 	float: left;
 	padding: 3px;
 }
 
-
-.newsArticle {
-	margin: auto;
-	width: 620px;
-	padding-bottom: 20px;
-}
-
 .articleIntro {
 	text-align: left;
 	overflow-wrap: break-word;
-	font-size: 12px;
+	font-size: 15px;
 	color: #FFFAF0;
+}
+
+.containerNews{
+	/*background: red; to be removed when finished*/
+	margin-bottom: 10px;
+	display: flex;
+	flex-direction: row;
+}
+.newsArticle{
+	box-sizing: border-box;
+	border: 1px;
+	padding: 10px;
+	flex: 1 0 100px;
+}
+.newsTitle{
+	font-size: 18px;
+}
+
+#upcomingEvents{
+	background-color: C61D18;
 
 }
