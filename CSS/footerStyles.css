@@ -15,6 +15,7 @@ C61D18 = crimson red
 	margin-top: 20px;
 	overflow: hidden; 
 }
+
 .seoText{
 	display: block;
 	text-align: center;
@@ -23,9 +24,11 @@ C61D18 = crimson red
 	width: 950px;
 	margin: 0 auto;
 }
+
 .copyRight{
 	font-size: 10px;
 }
+
 .footerAd{ /* fix positioning, this class is hacky as fuck */
 	position: relative;
 	left: 200px;

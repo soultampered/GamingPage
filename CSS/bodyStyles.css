@@ -44,7 +44,29 @@ C61D18 = crimson red
 	font-size: 18px;
 }
 
-#upcomingEvents{
-	background-color: C61D18;
+.upcomingEvents{ /*obviously change this color when you figure out the color scheme*/
+	background-color: #C61D18;
+	display: flex;
+	flex-direction: row;
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
