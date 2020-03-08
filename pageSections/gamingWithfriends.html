@@ -3,7 +3,7 @@
 <head>
 	<meta name="description" content="Complete walkthroughs for all your favourite games!">
 	<meta charset="UTF-8">
-	<title>Lore</title>
+	<title>Gaming With Friends</title>
 	<link rel="stylesheet" type="text/css" href="../CSS/bodyStyles.css">
 	<link rel="stylesheet" type="text/css" href="../CSS/footerStyles.css">
 	<link rel="stylesheet" type="text/css" href="../CSS/headerStyles.css">
@@ -31,20 +31,78 @@
 
 
 <main class="content-wrap">
-											<div><!-- In case it wasn't clear, this rediculous part is temporary-->
-											<p class="newsTitle newsArticle, articleNav">There will be a stream to twitch here</p>
-											</div>
+	<div>
+		<h2><a class="articleNav" href="pageSections/gameReviews.html" title="Game Reviews">
+			<span>Twitch Streams</span></a>
+		</h2>
 
-								<div id="Container"
-								style="padding-bottom:56.25%; position:relative;
-								display:block; width: 100%">
-								<iframe width="100%" height="100%" 
-									allowfullscreen webkitallowfullscreen
-									src="http://www.ustream.tv/embed/1524?html5ui=1" 
-									frameborder="0"
-									style="position:absolute; top:0; left: 0">
-								</iframe>
-							</div>
+
+		<iframe
+			id="streamFrame"
+		    src=""
+		    height="378"
+		    width="620"
+		    frameborder="0"
+		    scrolling="no"
+		    autoplay="false"
+		    allowfullscreen="true">
+		</iframe>
+
+		<script type="text/Javascript">
+			window.onload = replaceSrc;
+					// List of Featured streams
+					var stream1 = "https://player.twitch.tv/?channel=method&autoplay=false";
+					var stream2 = "https://player.twitch.tv/?channel=esl_csgo&autoplay=false";
+					var stream3 = "https://player.twitch.tv/?channel=ellesmere_gaming&autoplay=false";
+					var stream4 = "https://player.twitch.tv/?channel=lec&autoplay=false";
+					var stream5 = "https://player.twitch.tv/?channel=riotgamesjp&autoplay=false";
+
+			//Picks a randomly selected stream from the above list
+			var streamList = [stream1, stream2, stream3, stream4, stream5];
+			var randomStream = streamList[Math.floor(Math.random() * streamList.length)];
+
+				function replaceSrc() {
+					document.getElementById("streamFrame").src = randomStream;
+					}
+		</script>
+	</div>
+
+	<div>
+		<h2><a class="articleNav" href="pageSections/gameReviews.html" title="Game Reviews">
+			<span>Mixer Streams</span></a>
+		</h2>
+
+
+		<iframe
+			id="streamFrame"
+		    src="https://mixer.com/embed/player/shroud?disableLowLatency=1&autoplay=false"
+		    height="378"
+		    width="620"
+		    muted="true"
+		    frameborder="0"
+		    scrolling="no"
+		    allowfullscreen="true">
+		</iframe>
+
+		<!--<script type="text/Javascript">
+			window.onload = replaceSrc;
+					// List of Featured streams
+					var stream1 = "https://player.twitch.tv/?channel=method";
+					var stream2 = "https://player.twitch.tv/?channel=esl_csgo";
+					var stream3 = "https://player.twitch.tv/?channel=ellesmere_gaming";
+					var stream4 = "https://player.twitch.tv/?channel=lec";
+					var stream5 = "https://player.twitch.tv/?channel=riotgamesjp";
+
+			//Picks a randomly selected stream from the above list
+			var streamList = [stream1, stream2, stream3, stream4, stream5];
+			var randomStream = streamList[Math.floor(Math.random() * streamList.length)];
+
+				function replaceSrc() {
+					document.getElementById("streamFrame").src = randomStream;
+					}
+		</script>-->
+	</div>
+
 	
 </main>
 
