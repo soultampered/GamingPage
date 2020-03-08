@@ -36,7 +36,8 @@
 			<span>Twitch Streams</span></a>
 		</h2>
 
-
+		<script type="text/Javascript" src="../Javascript/twitchStreams.js"></script>
+		
 		<iframe
 			id="streamFrame"
 		    src=""
@@ -47,19 +48,8 @@
 		    autoplay="false"
 		    allowfullscreen="true">
 		</iframe>
-
-		<script type="text/Javascript">
-			window.onload = replaceSrc;
-			//Picks a randomly selected stream from the above list
-			var streamList = [stream1, stream2, stream3, stream4, stream5];
-			var randomStream = streamList[Math.floor(Math.random() * streamList.length)];
-
-			function replaceSrc() {
-				document.getElementById("streamFrame").src = randomStream;
-			}
-		</script>
 	</div>
-	
+
 
 	<div>
 		<h2><a class="articleNav" href="pageSections/gameReviews.html" title="Game Reviews">
