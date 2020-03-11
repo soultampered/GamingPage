@@ -38,3 +38,9 @@ C61D18 = crimson red
 	text-align: center;
 	background: #C61D18;
 }
+
+.termsText{
+	color: #FFFAF0;
+	font-size:12px;
+	font-family: Arial,Helvetica,sans-serif;
+}
