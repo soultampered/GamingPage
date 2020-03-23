@@ -1,0 +1,39 @@
+body {
+	background-color: #252525;
+}
+
+.header-wrapper{
+	background-color: #343434;
+}
+
+nav{
+	text-align: center;
+	width: 700px;
+}
+.menu-nav{
+	display: flex;
+	justify-content: space-between;
+	list-style: none;
+	height: 25px;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+
+.nav-item{
+	box-sizing: border-box;
+	padding: 10px;
+	flex: 1 1 100px;
+}
+
+.section-wrapper{
+	display: flex;
+	float: left;
+	margin-bottom: 10px;
+}
+
+.story-thumb{
+	padding: 5px;
+	max-width: 100%;
+	height: auto;
+}

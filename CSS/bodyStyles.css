@@ -1,56 +1,3 @@
-/*
-7D7D7D = button hover stage
-505050 = header
-333333 = Jet
-B5B5BD = silver
-FFFAF0 = cream white
-DDBC75 = gold
-C61D18 = crimson red
-*/
-
-/*body Styles*/
-.containerListing{
-	display: block;
-	margin-bottom: 50px;
-	overflow: hidden;
-	border-radius: 20px;
-}
-
-.story {
-	float: left;
-	padding: 3px;
-}
-
-.articleIntro {
-	text-align: left;
-	overflow-wrap: break-word;
-	font-size: 15px;
-	color: #FFFAF0;
-}
-
-.containerNews{
-	/*background: red; to be removed when finished*/
-	margin-bottom: 10px;
-	display: flex;
-	flex-direction: row;
-}
-.newsArticle{
-	box-sizing: border-box;
-	border: 1px;
-	padding: 10px;
-	flex: 1 0 100px;
-}
-.newsTitle{
-	font-size: 18px;
-}
-
-.upcomingEvents{ /*obviously change this color when you figure out the color scheme*/
-	background-color: #C61D18;
-	display: flex;
-	flex-direction: row;
-
-}
-
 /*----------------------------------------------------------------------------------*/
 
 input { font:12px arial; }
@@ -93,20 +40,6 @@ input { font:12px arial; }
 .msgln { margin:0 0 2px 0; }
 
 #formStyle{text-align:center;}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
