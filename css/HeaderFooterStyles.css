@@ -1,0 +1,32 @@
+header {
+	display: block;
+	background-color: #ffffff;
+}
+
+ul {
+	display: flex;
+	justify-content: center;
+	list-style: none;
+}
+li{
+	padding: 25px;
+}
+
+.header-wrapper {
+	display: flex;
+}
+
+.header-logo {
+	display: flex;
+	width: 240px;
+	height: auto;
+}
+
+.menu-nav{
+	display: flex;
+	margin-left: 25px;
+}
+
+.footer-wrapper{
+
+}

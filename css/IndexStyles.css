@@ -1,48 +1,28 @@
 body {
+	display: block;
+	font-family: sans-serif;
 	background-color: #252525;
 	margin: 0;
-	padding: 0;
 }
-main{
-	display: flex;
-	flex-direction: column;
+
+main {
+	display: block;
+	width: 1000px;
+	margin: auto;
+}
+
+a{
+	text-decoration: none;
 }
 
 h1 {
-	margin: auto;
 	color: #ffffff;
+	font-size: 1em;
 }
 
 h2 {
-	background-color: #ffffff;
-}
-
-.header-wrapper{
-	background-color: #343434;
-	text-align: center;
-	height: 50px;
-}
-	
-.footer-wrapper{
-	display: flex;
-	float: left;
-}
-
-
-
-nav{
+	color: #ffffff;
 	display: inline-block;
-	width: 700px;
-}
-
-.menu-nav{
-	display: flex;
-	justify-content: space-between;
-	list-style: none;
-	height: 25px;
-	margin: 0;
-	padding: 0;
-	overflow: hidden;
 }
 
 .nav-item{
@@ -53,8 +33,8 @@ nav{
 
 .section-wrapper{
 	display: flex;
-	float: left;
-	margin: auto;
+	width: 1000px;
+	justify-content: left;
 }
 
 .story-thumb{
