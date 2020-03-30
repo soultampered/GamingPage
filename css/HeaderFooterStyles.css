@@ -1,6 +1,7 @@
 header {
 	display: block;
 	background-color: #ffffff;
+	height: 100px;
 }
 
 ul {
@@ -18,13 +19,17 @@ li{
 
 .header-logo {
 	display: flex;
-	width: 240px;
-	height: auto;
 }
 
 .menu-nav{
 	display: flex;
 	margin-left: 25px;
+	background-color: #252525;
+	color: #ffffff;
+}
+
+.header-button {
+	border-color: #252525;
 }
 
 .footer-wrapper{
