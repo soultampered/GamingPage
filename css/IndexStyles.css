@@ -1,41 +1,43 @@
-body {
-	display: block;
-	font-family: sans-serif;
-	background-color: #252525;
-	margin: 0;
+.site {
+	display: grid;
+	grid-template-columns: 0.1fr 1.9fr 1.9fr 0.1fr;
+	grid-template-rows: 100px 1auto 1auto;
+	grid-gap: 1em 1em;
+	grid-template-areas:
+		"Header Header Header Header"
+		"Left-Side Content Content Right-Side"
+		"Footer Footer Footer Footer";
+		justify-content: center;
+	color: white;
+	background-color: #1a0000;
+	font-family: helvetica, arial, sans-serif;
 }
 
-main {
-	display: block;
-	width: 1280px;
-	margin: auto;
+
+.header-container {
+	grid-area: Header;
+	background-color: #3d3d5c;
 }
 
-h1 {
-	color: #ffffff;
-	font-size: 1em;
+.body-container {
+	grid-area: Content;
+}
+.container-listing {
+	background-color: #002b80;
 }
 
-h2 {
-	color: #ffffff;
+.footer-container {
+	grid-area: Footer;
+	background-color: #0099cc;
 }
 
-.nav-item{
-	box-sizing: border-box;
-	padding: 10px;
-	flex: 1 1 100px;
-}
 
-.section-wrapper{
-	display: flex;
-	width: 1228.8px;
-	height: 250px;
-}
 
-.story-thumb{
-	display: inline-block;
-	padding: 5px;
-	max-width: 100%;
-	height: auto;
-	justify-content: left;
+/*----------------------------------------------------------
+CSS Grid Layout for modern browsers:
+-----------------------------------------------------------*/
+
+@supports (grid-area: auto) {
+
+
 }
